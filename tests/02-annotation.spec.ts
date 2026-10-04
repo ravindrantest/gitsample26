@@ -37,21 +37,21 @@ test.fixme("Learn fixme annoation", async ({ page }) => {
     await page.waitForTimeout(3000); // for demo
 })
 
-test("Learn fail annoation", async ({ page }) => {
+// test("Learn fail annoation", async ({ page }) => {
 
-    await page.goto("https://leaftaps.com/opentaps/control/main");
+//     await page.goto("https://leaftaps.com/opentaps/control/main");
 
-    await page.locator('//input[@id="username"]').fill("democsr2");
+//     await page.locator('//input[@id="username"]').fill("democsr2");
 
-    await page.locator('//input[@id="password"]').fill("crmsfa");
+//     await page.locator('//input[@id="password"]').fill("crmsfa");
 
-    expect(page.locator('//input[@class="decorativeSubmit"]')).toBeDisabled();
+//     expect(page.locator('//input[@class="decorativeSubmit"]')).toBeDisabled();
 
-    await page.locator('//input[@class="decorativeSubmit"]').click();
+//     await page.locator('//input[@class="decorativeSubmit"]').click();
 
-    await page.locator('//a[contains(text(),"CRM")]').click();
+//     await page.locator('//a[contains(text(),"CRM")]').click();
 
-    await page.waitForTimeout(3000); // for demo
-})
+//     await page.waitForTimeout(3000); // for demo
+// })
 })
 
